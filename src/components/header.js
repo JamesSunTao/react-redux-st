@@ -8,10 +8,13 @@ class Header extends Component {
         <div>
             <Menu  theme="dark" mode="horizontal">
                 <Menu.Item key="/">                  
-                    <Link to="/"> <Icon type="android" />首页</Link>                   
+                    <Link to="/"> <Icon type="home" />首页</Link>                   
                 </Menu.Item>             
                 <Menu.Item key="/about">              
-                    <Link to="/about"> <Icon type="apple" />关于我们</Link>                   
+                    <Link to="/about"> <Icon type="user" />关于我们</Link>                   
+                </Menu.Item>
+                <Menu.Item key="/news">              
+                    <Link to="/news"> <Icon type="reddit" />新闻</Link>                   
                 </Menu.Item>
             </Menu>
             {this.props.children}

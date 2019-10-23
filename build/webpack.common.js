@@ -32,7 +32,7 @@ module.exports = {
         new CleanWebpackPlugin(), // 默认情况下，此插件将删除 webpack output.path目录中的所有文件，以及每次成功重建后所有未使用的 webpack 资产。
         new HtmlWebpackPlugin({
             // 打包输出HTML
-            title: 'react学习',
+            title: 'react-redux',
             filename: 'index.html', // 生成后的文件名
             template: path.resolve(entryDir,'index.html'), // 根据此模版生成 HTML 文件
             minify: {
