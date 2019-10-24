@@ -12,13 +12,13 @@ class News extends React.Component{
                 </div>
                 <ul>
                     <li>
-                        <Link to={{pathname:'/news1',query:{newsId:'111111'}}}>news新闻列表111111</Link>
+                        <Link to={{pathname:'/news1',query:{newsId:'111111',name:'suntao1'}}}>news新闻列表111111</Link>
                     </li>
                     <li>
-                        <Link to={{pathname:'/news1',query:{newsId:'222222'}}}>news新闻列表222222</Link>
+                        <Link to={{pathname:'/news1',query:{newsId:'222222',name:'suntao2'}}}>news新闻列表222222</Link>
                     </li>
                     <li>
-                        <Link to={{pathname:'/news1',query:{newsId:'333333'}}}>news新闻列表333333</Link>
+                        <Link to={{pathname:'/news1',query:{newsId:'333333',name:'suntao3'}}}>news新闻列表333333</Link>
                     </li>
                 </ul>
                
