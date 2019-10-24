@@ -16,6 +16,12 @@ class Header extends Component {
                 <Menu.Item key="/news">              
                     <Link to="/news"> <Icon type="reddit" />新闻</Link>                   
                 </Menu.Item>
+                <Menu.Item key="/member">              
+                    <Link to="/member"><Icon type="user-add" />成员</Link>                   
+                </Menu.Item>
+                <Menu.Item key="/groups">              
+                    <Link to="/groups"><Icon type="usergroup-add" />群组</Link>                   
+                </Menu.Item>
             </Menu>
             {this.props.children}
         </div>
