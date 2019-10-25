@@ -5,7 +5,7 @@ import {connect} from 'react-redux'  //引入连接器
 const Member = (props) =>{
         let {name,inputVal ,changeItem,addItem,list,delItem} = props;
         return (
-            <Card title="群组页面">
+            <Card title="群组页面(使用react-redux数据管理)">
                 <div className="home-warp">
                    <h3>欢迎进入Groups页面</h3>
                    <ul>

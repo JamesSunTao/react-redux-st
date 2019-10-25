@@ -14,6 +14,7 @@ import About from './container/About'
 import News from './container/News'
 import Member from './container/Member'
 import Groups from './container/Groups'
+import Hooks from './container/Hooks'
 
 const App =  (
     <Provider store={store}>
@@ -27,6 +28,7 @@ const App =  (
                             <Route path="/about" component={About}/>   
                             <Route path="/member" component={Member}/>  
                             <Route path="/groups" component={Groups}/>
+                            <Route path="/hooks" component={Hooks}/>
                             <Route path="/news" component={News}/> 
                             <Route path="/news1" component={News1}></Route>
                         </Switch>                               

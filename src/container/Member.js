@@ -38,7 +38,7 @@ class Member extends React.Component{
   
     render(){
         return (
-            <Card title="Member页面">
+            <Card title="Member页面（使用redux管理数据）">
                 <div className="home-warp">
                    <h3>欢迎进入Member页面</h3>
                    <ul>

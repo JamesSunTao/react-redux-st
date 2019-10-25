@@ -17,10 +17,13 @@ class Header extends Component {
                     <Link to="/news"> <Icon type="reddit" />新闻</Link>                   
                 </Menu.Item>
                 <Menu.Item key="/member">              
-                    <Link to="/member"><Icon type="user-add" />成员</Link>                   
+                    <Link to="/member"><Icon type="user-add" />成员(redux)</Link>                   
                 </Menu.Item>
                 <Menu.Item key="/groups">              
-                    <Link to="/groups"><Icon type="usergroup-add" />群组</Link>                   
+                    <Link to="/groups"><Icon type="usergroup-add" />群组(react-redux)</Link>                   
+                </Menu.Item>
+                <Menu.Item key="/hooks">              
+                    <Link to="/hooks"><Icon type="setting" theme="twoTone" />管理(Reack-Hooks)</Link>                   
                 </Menu.Item>
             </Menu>
             {this.props.children}
