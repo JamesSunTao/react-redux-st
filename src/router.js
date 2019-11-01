@@ -15,6 +15,7 @@ import News from './container/News'
 import Member from './container/Member'
 import Groups from './container/Groups'
 import Hooks from './container/Hooks'
+// import NoMatch from './container/NoMatch'
 
 const App =  (
     <Provider store={store}>
@@ -31,6 +32,7 @@ const App =  (
                             <Route path="/hooks" component={Hooks}/>
                             <Route path="/news" component={News}/> 
                             <Route path="/news1" component={News1}></Route>
+                            {/* <Route  component={NoMatch}/>  */}
                         </Switch>                               
                     </Header>         
                 } ></Route>
