@@ -1,7 +1,7 @@
 import React , { useState ,useEffect ,createContext ,useContext  }from 'react'
 import {Card,Collapse ,Panel} from 'antd'
 import {connect} from 'react-redux'  //引入连接器
-import { HashRouter as Router, Route, Link } from "react-router-dom"
+import { HashRouter as Router, Route, NavLink } from "react-router-dom"
 import ReducerTest from './ReducerTest'
 //===关键代码
 const CountContext = createContext()
@@ -52,9 +52,9 @@ function Hooks(){
                     </Card>  
 
                     <Router>
-                        <ul>
-                            <li> <Link to="/hooks">首页</Link> </li>
-                            <li><Link to="/hooks/list">列表</Link> </li>
+                        <ul className="hook_ul">
+                            <li> <NavLink to="/hooks" exact>首页</NavLink> </li>
+                            <li><NavLink to="/hooks/list">列表</NavLink> </li>
                         </ul>
                         <Route path="/hooks" exact component={Index1} />
                         <Route path="/hooks/list" component={List2} />

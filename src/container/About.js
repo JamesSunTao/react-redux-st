@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link,Route} from 'react-router-dom'
+import {NavLink,Route} from 'react-router-dom'
 import {Card} from 'antd'
 import About1 from '../components/about1'
 import About2 from '../components/about2'
@@ -14,10 +14,10 @@ class About extends React.Component{
                 </div>
                 <ul>
                     <li>
-                        <Link to="/about/about1">about1页面</Link>
+                        <NavLink to="/about/about1">about1页面</NavLink>
                     </li>
                     <li>
-                        <Link to="/about/about2">about2页面</Link>
+                        <NavLink to="/about/about2">about2页面</NavLink>
                     </li>
                 </ul>
                 <div>

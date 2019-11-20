@@ -4,7 +4,7 @@ const commonConfig = require('./webpack.common');
 
 const prodConfig = {
     mode:"development",
-    devtool: "cheap-module-eval-source-map",
+    // devtool: "cheap-module-eval-source-map",
     devServer: {
         // contentBase:'./dist',
         open:true,

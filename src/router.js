@@ -15,6 +15,7 @@ import News from './container/News'
 import Member from './container/Member'
 import Groups from './container/Groups'
 import Hooks from './container/Hooks'
+import './assets/css/style.scss'
 // import NoMatch from './container/NoMatch'
 
 const App =  (

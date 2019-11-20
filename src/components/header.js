@@ -11,7 +11,7 @@ class Header extends Component {
                     <Link to="/"> <Icon type="home" />首页</Link>                   
                 </Menu.Item>             
                 <Menu.Item key="/about">              
-                    <Link to="/about"> <Icon type="user" />关于我们</Link>                   
+                    <Link to="/about"><Icon type="user" />关于我们</Link>                   
                 </Menu.Item>
                 <Menu.Item key="/news">              
                     <Link to="/news"> <Icon type="reddit" />新闻</Link>                   

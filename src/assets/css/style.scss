@@ -3,6 +3,10 @@ body{
     box-sizing: border-box;
     padding: 15px;
     div{
-        background: orange;
+        // background: orange;
+    }
+    .active{
+        background: orangered;
+        color: #fff;
     } 
 }
